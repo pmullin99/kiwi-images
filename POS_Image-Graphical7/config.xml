@@ -138,9 +138,11 @@
         <package name="ghostscript-fonts-std"/>
         <package name="ghostscript-fonts-other"/>
 
-        <!--Added for usablility -PLM-->
+        <!--Added for custom retail builds-->
         <package name="gnome-terminal"/>
-
+        <package name="openscap-utils"/>
+        <package name="openscap-content"/>     
+        
     </packages>
     <packages type="bootstrap">
         <package name="udev"/>
