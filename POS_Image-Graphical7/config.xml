@@ -138,6 +138,9 @@
         <package name="ghostscript-fonts-std"/>
         <package name="ghostscript-fonts-other"/>
 
+        <!--Added for usablility -PLM-->
+        <package name="gnome-terminal"/>
+
     </packages>
     <packages type="bootstrap">
         <package name="udev"/>
