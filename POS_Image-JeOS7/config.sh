@@ -24,7 +24,7 @@
 #--------------------------------------
 test -f /.kconfig && . /.kconfig
 test -f /.profile && . /.profile
-
+#
 mkdir /var/lib/misc/reconfig_system
 
 #======================================
