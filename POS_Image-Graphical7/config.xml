@@ -26,7 +26,8 @@
       <source path="this://repo"/>
     </repository>
 
- <!-- User doc https://documentation.suse.com/kiwi/9/single-html/kiwi/index.html#sec-users -->
+ <!-- User doc https://documentation.suse.com/kiwi/9/single-html/kiwi/index.html#sec-users 
+      To hash password:  openssl passwd -1 -salt 'xyz' YOUR_PASSWORD-->
     <users>
         <user name="root" password="$1$xyz$gvYJA1afhohYeV7UYaKI10" pwdformat="encrypted"/>
         <user name="posadmin" home="/home/posadmin" groups="users,wheel" id="1001" password="$1$xyz$gvYJA1afhohYeV7UYaKI10" pwdformat="encrypted"/>
