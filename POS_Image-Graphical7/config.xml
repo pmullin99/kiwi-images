@@ -7,7 +7,7 @@
         <specification>SUSE Linux Enterprise 15 SP2 Graphical Image</specification>
     </description>
     <preferences>
-        <version>7.0.3</version>
+        <version>7.0.4</version>
         <packagemanager>zypper</packagemanager>
         <bootsplash-theme>SLE</bootsplash-theme>
         <bootloader-theme>SLE</bootloader-theme>
@@ -31,7 +31,7 @@
     <users>
         <user name="root" password="$1$xyz$gvYJA1afhohYeV7UYaKI10" pwdformat="encrypted"/>
         <user name="posadmin" home="/home/posadmin" groups="users,wheel" id="1001" password="$1$xyz$gvYJA1afhohYeV7UYaKI10" pwdformat="encrypted"/>
-        <user name="pos" home="/home/pos" groups="users" id="1002" password="$1$xyz$gvYJA1afhohYeV7UYaKI10" pwdformat="encrypted"/>
+        <user name="posuser" home="/home/posuser" groups="users" id="1002" password="$1$xyz$gvYJA1afhohYeV7UYaKI10" pwdformat="encrypted"/>
     </users>
 
     <packages type="image">
